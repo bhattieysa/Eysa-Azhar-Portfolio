@@ -15418,7 +15418,7 @@ div#featured-project-carousel {
 .client-card .main-content {
   margin-top: 30px;
   flex-basis: 33.33%;
-  padding: 0 15px;
+  padding: 10px 70px;
 }
 @media only screen and (max-width: 767px) {
   .client-card .main-content {
@@ -15460,7 +15460,7 @@ div#featured-project-carousel {
   opacity: 1;
 }
 .client-card .main-content .thumbnail {
-  height: 150px;
+  height: 250px;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -15470,7 +15470,7 @@ div#featured-project-carousel {
   display: block;
 }
 .client-card .main-content .thumbnail a img {
-  max-height: 90px;
+  max-height: 200px;
 }
 .client-card .main-content .seperator {
   position: relative;
@@ -15487,8 +15487,8 @@ div#featured-project-carousel {
   z-index: -1;
 }
 .client-card .main-content .client-name {
-  padding: 16px;
-  color: #7c838e;
+  padding: 20px;
+  color: #0170b3;
 }
 .client-card .main-content .client-name a {
   transition: var(--transition);
@@ -19687,7 +19687,10 @@ body.white-version .rn-btn-ulderline {
   opacity: 0.8;
 }
 
-.white-version .client-card .main-content .client-name a,
+.white-version .client-card .main-content .client-name a {
+color:#0170b3;
+font-weight: bold;
+}
 .white-version .rn-pricing .pricing-header .header-left span {
   color: var(--color-body-white);
 }
