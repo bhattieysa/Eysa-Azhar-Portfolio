@@ -16391,6 +16391,7 @@ span.sr-only {
   width: 20px;
   color: var(--color-lightn);
   transition: var(--transition);
+  margin-top: 16px;
 }
 .contact-about-area .social-area .social-icone a:hover {
   transform: translateY(-5px);
@@ -18820,6 +18821,7 @@ body.white-version .rn-btn-ulderline {
 }
 .white-version .slide .social-share-inner-left .social-share li a svg {
   color: var(--color-body-white);
+  margin-top: 16px;
 }
 .white-version .slide .social-share-inner-left .social-share li a:hover svg {
   color: var(--color-white);
