@@ -19003,6 +19003,7 @@ body.white-version .rn-btn-ulderline {
 }
 .white-version .backto-top > div svg {
   color: var(--color-primary);
+  margin-top: 8px;
 }
 .white-version .backto-top > div::after {
   transition: var(--transition);
